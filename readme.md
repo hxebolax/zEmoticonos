@@ -55,4 +55,12 @@ Esta tecla funciona en todo el complemento excepto cuando el foco esta en el bot
 
 * Espacio: Estando en la lista de emoticonos y símbolos, el emoticono o símbolo que tenga el foco será copiado al cuadro de edición de texto a la última posición de escritura.
 
+## Traductores y colaboradores:
 
+* Francés: Rémy Ruiz
+* Portugués: Ângelo Miguel Abrantes
+
+# Registro de cambios.
+## Versión 0.2.
+
+* Versión inicial.

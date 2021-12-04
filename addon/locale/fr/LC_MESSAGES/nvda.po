@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'zEmoticonos' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'zEmoticonos' '0.2'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2021-12-02 12:29+0100\n"
+"PO-Revision-Date: 2021-12-03 22:04+0100\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.8\n"
+
+#. add-on Name/identifier, internal for NVDA
+#: buildVars.py:19 addon\globalPlugins\zEmoticonos\__init__.py:37
+msgid "zEmoticonos"
+msgstr "zEmoticonos"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "zEmoticonos para NVDA"
+msgstr "zEmoticonos pour NVDA"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Muestra todos los emoticonos y símbolos que aguanta NVDA"
+msgstr "Affiche toutes les émoticônes et symboles qui sont prises en charges par NVDA"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:37
+msgid "Muestra la ventana de zEmoticonos"
+msgstr "Affiche la fenêtre de zEmoticonos"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:45
+msgid ""
+"Ya hay una instancia de zEmoticonos abierta.\n"
+"\n"
+"No es posible tener dos instancias a la vez."
+msgstr ""
+"Il y a déjà une instance de zEmoticonos ouverte.\n"
+"\n"
+"Il n'est pas possible d'avoir deux instances à la fois."
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:51
+msgid "No se pudo cargar el archivo de datos."
+msgstr "Le fichier de données n'a pas pu être chargé."
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:72
+msgid "zEmoticonos - {}emoticonos y símbolos"
+msgstr "zEmoticonos - {}émoticônes et symboles"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:80
+msgid "&Buscar:"
+msgstr "&Rechercher:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:86
+msgid "&Lista emoticonos y símbolos:"
+msgstr "&Liste des émoticônes et symboles:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:92
+msgid "&Editor de texto:"
+msgstr "&Éditeur de texte:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:97
+msgid "&Cerrar"
+msgstr "&Fermer"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:138
+#: addon\globalPlugins\zEmoticonos\__init__.py:150
+msgid "No se encontraron resultados"
+msgstr "Aucun résultat trouvé"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:166
+msgid "Se encontró más de un emoticono."
+msgstr "Plus d'un émoticône a été trouvée."
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:177
+#: addon\globalPlugins\zEmoticonos\__init__.py:223
+msgid "Se ha copiado al portapapeles"
+msgstr "Il a été copié dans le presse-papiers"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:179
+#: addon\globalPlugins\zEmoticonos\__init__.py:225
+msgid "No se a podido copiar al portapapeles"
+msgstr "Il n'a pas pu être copié dans le presse-papiers"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:211
+msgid "Sin caracteres"
+msgstr "Sans caractères"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:213
+msgid "{} caracteres"
+msgstr "{} caractères"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:216
+msgid "No hay nada para copiar al portapapeles"
+msgstr "Il n'y a rien à copier au presse-papiers"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:228
+msgid "No hay nada para copiar al foco"
+msgstr "Il n'y a rien à copier au focus"
