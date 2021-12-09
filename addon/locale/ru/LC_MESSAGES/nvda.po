@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZEmoticonos\n"
+"POT-Creation-Date: 2021-12-04 15:37+0300\n"
+"PO-Revision-Date: 2021-12-05 12:21+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../../../globalPlugins\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: zEmoticonos/__init__.py:37
+msgid "Muestra la ventana de zEmoticonos"
+msgstr "Показать окно zEmoticonos"
+
+#: zEmoticonos/__init__.py:37
+msgid "zEmoticonos"
+msgstr "zEmoticonos"
+
+#: zEmoticonos/__init__.py:45
+msgid ""
+"Ya hay una instancia de zEmoticonos abierta.\n"
+"\n"
+"No es posible tener dos instancias a la vez."
+msgstr ""
+"Уже открыто одно окно zEmoticonos.\n"
+"\n"
+"Невозможно иметь два экземпляра окна одновременно."
+
+#: zEmoticonos/__init__.py:51
+msgid "No se pudo cargar el archivo de datos."
+msgstr "Не удалось загрузить файл данных."
+
+#: zEmoticonos/__init__.py:72
+msgid "zEmoticonos - {}emoticonos y símbolos"
+msgstr "zEmoticonos - {} смайлики и символы"
+
+#: zEmoticonos/__init__.py:80
+msgid "&Buscar:"
+msgstr "&Найти:"
+
+#: zEmoticonos/__init__.py:86
+msgid "&Lista emoticonos y símbolos:"
+msgstr "&Список смайлов и символов"
+
+#: zEmoticonos/__init__.py:92
+msgid "&Editor de texto:"
+msgstr "&Текстовый редактор:"
+
+#: zEmoticonos/__init__.py:97
+msgid "&Cerrar"
+msgstr "&Закрыть"
+
+#: zEmoticonos/__init__.py:138 zEmoticonos/__init__.py:150
+msgid "No se encontraron resultados"
+msgstr "Ничего не найдено"
+
+#: zEmoticonos/__init__.py:166
+msgid "Se encontró más de un emoticono."
+msgstr "Найдены результаты."
+
+#: zEmoticonos/__init__.py:177 zEmoticonos/__init__.py:223
+msgid "Se ha copiado al portapapeles"
+msgstr "Скопировано в буфер обмена"
+
+#: zEmoticonos/__init__.py:179 zEmoticonos/__init__.py:225
+msgid "No se a podido copiar al portapapeles"
+msgstr "Не удалось скопировать в буфер обмена"
+
+#: zEmoticonos/__init__.py:211
+msgid "Sin caracteres"
+msgstr "Символов нет"
+
+#: zEmoticonos/__init__.py:213
+msgid "{} caracteres"
+msgstr "{} символов"
+
+#: zEmoticonos/__init__.py:216
+msgid "No hay nada para copiar al portapapeles"
+msgstr "Ничего нет, чтобы скопировать в буфер обмена"
+
+#: zEmoticonos/__init__.py:228
+msgid "No hay nada para copiar al foco"
+msgstr "Ничего нет, чтобы скопировать в фокус"
