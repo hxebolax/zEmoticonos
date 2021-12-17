@@ -229,7 +229,8 @@ class zEmoticonos(wx.Dialog):
 			else:
 				self.Hide()
 				event.Skip()
-				paste = self.textoPegar.GetValue()
+				tempPaste = self.textoPegar.GetValue()
+				paste = u"{}".format(tempPaste)
 				# Source code taken from: frequentText add-on for NVDA. Written by Rui Fontes and Ângelo Abrantes
 				try:
 					clipboardBackup = api.getClipData()
@@ -272,12 +273,18 @@ class HiloComplemento(Thread):
 
 		def ze_config():
 			directorioIdiomas = os.path.join(globalVars.appDir, "locale")
-			idioma = languageHandler.curLang
+			try:
+				idioma = languageHandler.curLang
+			except:
+				idioma = languageHandler.getLanguage()
 			if os.path.isdir(os.path.join(directorioIdiomas, idioma)):
 				pass
 			elif os.path.isdir(os.path.join(directorioIdiomas, idioma[:2])):
-				idioma = languageHandler.curLang[:2]
-			else:
+				try:
+					idioma = languageHandler.curLang[:2]
+				except:
+					idioma = languageHandler.getLanguage()[:2]
+				else:
 				idioma = "es"
 			fichero = os.path.join(directorioIdiomas, idioma, "cldr.dic")
 			if os.path.exists(fichero):
