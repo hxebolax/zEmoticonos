@@ -59,10 +59,14 @@ Esta tecla funciona en todo el complemento excepto cuando el foco esta en el bot
 
 * Francés: Rémy Ruiz
 * Portugués: Ângelo Miguel Abrantes
-* Ruso: comunidad rusa NVDA.RU
 * Turco: umut korkmaz
+* Ruso: Valentin Kupriyanov
 
 # Registro de cambios.
+## Versión 0.3.
+
+* Solucionado problema en distribuciones de teclado que usen caracteres cirílicos.
+
 ## Versión 0.2.
 
 * Versión inicial.

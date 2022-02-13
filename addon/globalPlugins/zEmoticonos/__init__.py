@@ -197,7 +197,12 @@ class zEmoticonos(wx.Dialog):
 						WM_COMMAND = 0x0111
 						watchdog.cancellableSendMessage(focus.windowHandle, WM_COMMAND, 0xfff1, 0)
 					else:
-						KeyboardInputGesture.fromName("Control+v").send()
+						try:
+							KeyboardInputGesture.fromName("Control+v").send()
+						except:
+							# Solución para teclados con caracteres cirilicos.
+							KeyboardInputGesture.fromName("shift+insert").send()
+
 					try:
 						core.callLater(300, lambda: api.copyToClip(clipboardBackup))
 					except:
@@ -245,7 +250,12 @@ class zEmoticonos(wx.Dialog):
 					WM_COMMAND = 0x0111
 					watchdog.cancellableSendMessage(focus.windowHandle, WM_COMMAND, 0xfff1, 0)
 				else:
-					KeyboardInputGesture.fromName("Control+v").send()
+					try:
+						KeyboardInputGesture.fromName("Control+v").send()
+					except:
+						# Solución para teclados con caracteres cirilicos.
+						KeyboardInputGesture.fromName("shift+insert").send()
+
 				try:
 					core.callLater(300, lambda: api.copyToClip(clipboardBackup))
 				except:
