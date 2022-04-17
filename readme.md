@@ -63,6 +63,18 @@ Esta tecla funciona en todo el complemento excepto cuando el foco esta en el bot
 * Ruso: Valentin Kupriyanov
 
 # Registro de cambios.
+## Versión 0.4.
+
+* Agregada la posibilidad de guardar favoritos.
+
+Ahora en la ventana del complemento podremos pulsar Alt+A y cambiar de categoría de general a favoritos y viceversa.
+
+Cuando estemos en la ventana general y en la lista de los emoticonos y símbolos si pulsamos F4 el símbolo o emoticono se copiará a favoritos.
+
+En la ventana de favoritos en la lista de emoticonos y símbolos si pulsamos F4 se borrará de favoritos el símbolo o emoticono.
+
+* Adaptado el complemento a la nueva forma de no permitir su ejecución en pantallas seguras.
+
 ## Versión 0.3.
 
 * Solucionado problema en distribuciones de teclado que usen caracteres cirílicos.
