@@ -63,6 +63,10 @@ Esta tecla funciona en todo el complemento excepto cuando el foco esta en el bot
 * Ruso: Valentin Kupriyanov
 
 # Registro de cambios.
+## Versión 0.5.
+
+* Añadida compatibilidad con NVDA 2023.1
+
 ## Versión 0.4.
 
 * Agregada la posibilidad de guardar favoritos.

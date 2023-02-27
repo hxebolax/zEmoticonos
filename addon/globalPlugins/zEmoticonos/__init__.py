@@ -257,6 +257,11 @@ class zEmoticonos(wx.Dialog):
 						else:
 							ui.message(_("No se a podido copiar al portapapeles"))
 					elif event.GetKeyCode() == 342: # F3 pega en la app
+						try:
+							clipboardBackup = api.getClipData()
+						except:
+							pass
+
 						nombre = self.listbox.GetString(self.listbox.GetSelection())
 						if ajustes.categoria == 0:
 							indice = [i for i,x in enumerate(self.selfPrincipal.emoListName) if x ==nombre]
@@ -271,10 +276,6 @@ class zEmoticonos(wx.Dialog):
 							paste = self.selfPrincipal.emoListFAV[indice[0]]
 
 						# Source code taken from: frequentText add-on for NVDA. Written by Rui Fontes and Ângelo Abrantes
-						try:
-							clipboardBackup = api.getClipData()
-						except:
-							pass
 						api.copyToClip(paste)
 						time.sleep(0.1)
 						api.processPendingEvents(False)
@@ -290,10 +291,10 @@ class zEmoticonos(wx.Dialog):
 								# Solución para teclados con caracteres cirilicos.
 								KeyboardInputGesture.fromName("shift+insert").send()
 
-						try:
-							core.callLater(300, lambda: api.copyToClip(clipboardBackup))
-						except:
-							pass
+#						try:
+#							core.callLater(300, lambda: api.copyToClip(clipboardBackup))
+#						except:
+#							pass
 						self.onSalir(None)
 					elif event.GetKeyCode() == 343:
 						nombre = self.listbox.GetString(self.listbox.GetSelection())
@@ -301,14 +302,14 @@ class zEmoticonos(wx.Dialog):
 						if ajustes.categoria == 0:
 							indice = [i for i,x in enumerate(self.selfPrincipal.emoListName) if x ==nombre]
 							if ajustes.estaenlistado(self.selfPrincipal.emoListNameFAV, self.selfPrincipal.emoListName[indice[0]]):
-								ui.message(_("No se puede copiar {} por que ya esta en favoritos".format(self.selfPrincipal.emoListName[indice[0]])))
+								ui.message(_("No se puede copiar {} por que ya esta en favoritos").format(self.selfPrincipal.emoListName[indice[0]]))
 							else:
 								with open(fileFavoritos, "r") as fp:
 									datosFavoritos = json.load(fp)
 								datosFavoritos.append([self.selfPrincipal.emoList[indice[0]], self.selfPrincipal.emoListName[indice[0]]])
 								with open(fileFavoritos, "w") as fp:
 									json.dump(datosFavoritos, fp)
-								ui.message(_("{} Añadido a favoritos".format(self.selfPrincipal.emoListName[indice[0]])))
+								ui.message(_("{} Añadido a favoritos").format(self.selfPrincipal.emoListName[indice[0]]))
 						else:
 							indice = [i for i,x in enumerate(self.selfPrincipal.emoListNameFAV) if x ==nombre]
 							with open(fileFavoritos, "r") as fp:
@@ -316,7 +317,7 @@ class zEmoticonos(wx.Dialog):
 							del datosFavoritos[indice[0]]
 							with open(fileFavoritos, "w") as fp:
 								json.dump(datosFavoritos, fp)
-							ui.message(_("{} Eliminado de favoritos".format(self.selfPrincipal.emoListNameFAV[indice[0]])))
+							ui.message(_("{} Eliminado de favoritos").format(self.selfPrincipal.emoListNameFAV[indice[0]]))
 							self.onCargarFavoritos()
 
 	def onPrincipalTeclas(self, event):
@@ -366,10 +367,10 @@ class zEmoticonos(wx.Dialog):
 						# Solución para teclados con caracteres cirilicos.
 						KeyboardInputGesture.fromName("shift+insert").send()
 
-				try:
-					core.callLater(300, lambda: api.copyToClip(clipboardBackup))
-				except:
-					pass
+#				try:
+#					core.callLater(300, lambda: api.copyToClip(clipboardBackup))
+#				except:
+#					pass
 				self.onSalir(None)
 
 	def onSalir(self, event):

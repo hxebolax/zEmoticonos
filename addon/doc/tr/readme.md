@@ -44,8 +44,25 @@ Tekrar Sekme tuşuna bastığımızda Kapat tuşu gelir ve eklenti iletişim kut
 * Fransızca: Rémy Ruiz.  
 * Portekizce: Angelo Miguel Abrantes.  
 * Türkçe: Umut KORKMAZ.  
+* Rusça: Valentin Kupriyanov
 
 # Sürüm Geçmişi:  
+## Sürüm 0.4.
+
+* Favorileri kaydetme özelliği eklendi.
+
+Şimdi eklenti penceresinde Alt+A'ya basabilir ve kategoriyi genelden favorilere veya tam tersi şekilde değiştirebiliriz.  
+
+Genel penceredeyken, İfade ve semboller listesindeyken F4'e basarsak sembol veya ifade favorilere kopyalanacaktır.  
+
+İfadeler ve semboller listesindeki favoriler penceresinde F4'e basarsak sembol veya ifade favorilerden silinecektir.  
+
+* Eklentinin güvenli ekranlarda çalışması güvenlik nedeniyle engellendi.  
+
+## Versión 0.3.
+
+* Solucionado problema en distribuciones de teclado que usen caracteres cirílicos.
+
 ## Sürüm 0.2:  
 
 * İlk sürüm.  

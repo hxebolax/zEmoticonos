@@ -5,20 +5,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 'zEmoticonos' '0.2'\n"
+"Project-Id-Version: 'zEmoticonos' '0.4'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2021-12-02 12:29+0100\n"
-"PO-Revision-Date: 2021-12-03 22:04+0100\n"
+"POT-Creation-Date: 2022-06-02 08:45+0200\n"
+"PO-Revision-Date: 2022-06-02 09:02+0200\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.8\n"
 
 #. add-on Name/identifier, internal for NVDA
-#: buildVars.py:19 addon\globalPlugins\zEmoticonos\__init__.py:37
+#: buildVars.py:19 addon\globalPlugins\zEmoticonos\__init__.py:40
 msgid "zEmoticonos"
 msgstr "zEmoticonos"
 
@@ -35,11 +35,11 @@ msgstr "zEmoticonos pour NVDA"
 msgid "Muestra todos los emoticonos y símbolos que aguanta NVDA"
 msgstr "Affiche toutes les émoticônes et symboles qui sont prises en charges par NVDA"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:37
+#: addon\globalPlugins\zEmoticonos\__init__.py:40
 msgid "Muestra la ventana de zEmoticonos"
 msgstr "Affiche la fenêtre de zEmoticonos"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:45
+#: addon\globalPlugins\zEmoticonos\__init__.py:48
 msgid ""
 "Ya hay una instancia de zEmoticonos abierta.\n"
 "\n"
@@ -49,61 +49,100 @@ msgstr ""
 "\n"
 "Il n'est pas possible d'avoir deux instances à la fois."
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:51
+#: addon\globalPlugins\zEmoticonos\__init__.py:54
 msgid "No se pudo cargar el archivo de datos."
 msgstr "Le fichier de données n'a pas pu être chargé."
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:72
-msgid "zEmoticonos - {}emoticonos y símbolos"
-msgstr "zEmoticonos - {}émoticônes et symboles"
+#: addon\globalPlugins\zEmoticonos\__init__.py:79
+#: addon\globalPlugins\zEmoticonos\__init__.py:171
+msgid "zEmoticonos - General - {} emoticonos y símbolos"
+msgstr "zEmoticonos - Général - {} émoticônes et symboles"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:80
+#: addon\globalPlugins\zEmoticonos\__init__.py:81
+#: addon\globalPlugins\zEmoticonos\__init__.py:164
+msgid "zEmoticonos - Favoritos - {} emoticonos y símbolos"
+msgstr "zEmoticonos - Favoris - {} émoticônes et symboles"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:89
+msgid "C&ategoría:"
+msgstr "C&atégorie:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:90
+msgid "General"
+msgstr "Général"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:90
+msgid "Favoritos"
+msgstr "Favoris"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:94
 msgid "&Buscar:"
 msgstr "&Rechercher:"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:86
+#: addon\globalPlugins\zEmoticonos\__init__.py:100
 msgid "&Lista emoticonos y símbolos:"
 msgstr "&Liste des émoticônes et symboles:"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:92
+#: addon\globalPlugins\zEmoticonos\__init__.py:109
 msgid "&Editor de texto:"
 msgstr "&Éditeur de texte:"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:97
+#: addon\globalPlugins\zEmoticonos\__init__.py:114
 msgid "&Cerrar"
 msgstr "&Fermer"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:138
-#: addon\globalPlugins\zEmoticonos\__init__.py:150
+#: addon\globalPlugins\zEmoticonos\__init__.py:158
+#: addon\globalPlugins\zEmoticonos\__init__.py:188
+#: addon\globalPlugins\zEmoticonos\__init__.py:216
+msgid "Sin favoritos"
+msgstr "Sans favoris"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:201
+#: addon\globalPlugins\zEmoticonos\__init__.py:213
 msgid "No se encontraron resultados"
 msgstr "Aucun résultat trouvé"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:166
+#: addon\globalPlugins\zEmoticonos\__init__.py:238
 msgid "Se encontró más de un emoticono."
 msgstr "Plus d'un émoticône a été trouvée."
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:177
-#: addon\globalPlugins\zEmoticonos\__init__.py:223
+#: addon\globalPlugins\zEmoticonos\__init__.py:256
+#: addon\globalPlugins\zEmoticonos\__init__.py:338
 msgid "Se ha copiado al portapapeles"
 msgstr "Il a été copié dans le presse-papiers"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:179
-#: addon\globalPlugins\zEmoticonos\__init__.py:225
+#: addon\globalPlugins\zEmoticonos\__init__.py:258
+#: addon\globalPlugins\zEmoticonos\__init__.py:340
 msgid "No se a podido copiar al portapapeles"
 msgstr "Il n'a pas pu être copié dans le presse-papiers"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:211
+#: addon\globalPlugins\zEmoticonos\__init__.py:304
+msgid "No se puede copiar {} por que ya esta en favoritos"
+msgstr "Vous ne pouvez pas copier {} car il est déjà dans les favoris"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:311
+msgid "{} Añadido a favoritos"
+msgstr "{} Ajouté aux favoris"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:319
+msgid "{} Eliminado de favoritos"
+msgstr "{} Supprimé des favoris"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:326
 msgid "Sin caracteres"
 msgstr "Sans caractères"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:213
+#: addon\globalPlugins\zEmoticonos\__init__.py:328
 msgid "{} caracteres"
 msgstr "{} caractères"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:216
+#: addon\globalPlugins\zEmoticonos\__init__.py:331
 msgid "No hay nada para copiar al portapapeles"
 msgstr "Il n'y a rien à copier au presse-papiers"
 
-#: addon\globalPlugins\zEmoticonos\__init__.py:228
+#: addon\globalPlugins\zEmoticonos\__init__.py:343
 msgid "No hay nada para copiar al foco"
 msgstr "Il n'y a rien à copier au focus"
+
+#~ msgid "zEmoticonos - {}emoticonos y símbolos"
+#~ msgstr "zEmoticonos - {}émoticônes et symboles"

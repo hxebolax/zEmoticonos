@@ -59,7 +59,26 @@ Cette touche fonctionne tout au long de l'extension, sauf lorsque le focus est m
 
 * Français: Rémy Ruiz
 * Portugais: Ângelo Miguel Abrantes
+* Turc: umut korkmaz
+* Russe: Valentin Kupriyanov
+
 # Journal des changements.
+## Version 0.4.
+
+* Ajout de la possibilité de sauvegarder aux favoris.
+
+Maintenant, dans la fenêtre de l'extension, nous pouvons appuyer sur Alt+A et changer de catégorie de Général vers Favoris et vice versa.
+
+Lorsque nous sommes dans la fenêtre Générale et sur la liste des émoticônes et des symboles si nous appuyons sur F4, le symbole ou l'émoticône sera copié aux favoris.
+
+Dans la fenêtre des favoris de la liste des émoticônes et des symboles si nous appuyons sur F4, le symbole ou l'émoticône sera supprimé des favoris.
+
+* Adapté l'extension à la nouvelle façon de ne pas autoriser son exécution sur les écrans sécurisés.
+
+## Version 0.3.
+
+* Un problème a été résolu dans les distributions de clavier qui utilisent des caractères cyrilliques.
+
 ## Version 0.2.
 
 * Version initiale.

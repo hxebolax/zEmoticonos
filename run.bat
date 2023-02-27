@@ -2,4 +2,4 @@
 @echo off
 scons --clean
 scons
-zEmoticonos-0.4.nvda-addon
+zEmoticonos-0.5.nvda-addon
