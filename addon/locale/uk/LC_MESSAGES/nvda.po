@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'zEmoticonos' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'zEmoticonos' '0.4'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-03-01 22:49+0200\n"
+"PO-Revision-Date: 2023-03-01 22:49+0200\n"
+"Last-Translator: Heorhii <nvda.translation.uk@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. add-on Name/identifier, internal for NVDA
+#: buildVars.py:19 addon\globalPlugins\zEmoticonos\__init__.py:40
+msgid "zEmoticonos"
+msgstr "смайлики"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "zEmoticonos para NVDA"
+msgstr "смайлики для NVDA"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Muestra todos los emoticonos y símbolos que aguanta NVDA"
+msgstr "Показує всі смайли та символи, які підтримуються NVDA"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:40
+msgid "Muestra la ventana de zEmoticonos"
+msgstr "Показує діалог Смайликів"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:48
+msgid ""
+"Ya hay una instancia de zEmoticonos abierta.\n"
+"\n"
+"No es posible tener dos instancias a la vez."
+msgstr ""
+"Вже відкрито один екземпляр додатка Смайликів.\n"
+"\n"
+"Неможливо мати два екземпляри одночасно."
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:54
+msgid "No se pudo cargar el archivo de datos."
+msgstr "Не вдалося завантажити файл даних."
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:79
+#: addon\globalPlugins\zEmoticonos\__init__.py:171
+msgid "zEmoticonos - General - {} emoticonos y símbolos"
+msgstr "смайлики - Загальні - {} смайлів та символів"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:81
+#: addon\globalPlugins\zEmoticonos\__init__.py:164
+msgid "zEmoticonos - Favoritos - {} emoticonos y símbolos"
+msgstr "смайлики - Обрані - {} смайли та символи"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:89
+msgid "C&ategoría:"
+msgstr "&Категорія:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:90
+msgid "General"
+msgstr "Загальні"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:90
+msgid "Favoritos"
+msgstr "Обрані"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:94
+msgid "&Buscar:"
+msgstr "&Пошук:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:100
+msgid "&Lista emoticonos y símbolos:"
+msgstr "&Список смайликів і символів:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:109
+msgid "&Editor de texto:"
+msgstr "&Текстовий редактор:"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:114
+msgid "&Cerrar"
+msgstr "&Закрити"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:158
+#: addon\globalPlugins\zEmoticonos\__init__.py:188
+#: addon\globalPlugins\zEmoticonos\__init__.py:216
+msgid "Sin favoritos"
+msgstr "Немає обраних"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:201
+#: addon\globalPlugins\zEmoticonos\__init__.py:213
+msgid "No se encontraron resultados"
+msgstr "Нічого не знайдено"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:238
+msgid "Se encontró más de un emoticono."
+msgstr "Знайдено більше ніж один смайлик."
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:256
+#: addon\globalPlugins\zEmoticonos\__init__.py:339
+msgid "Se ha copiado al portapapeles"
+msgstr "Скопійовано в буфер обміну"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:258
+#: addon\globalPlugins\zEmoticonos\__init__.py:341
+msgid "No se a podido copiar al portapapeles"
+msgstr "Не вдалося скопіювати в буфер обміну"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:305
+msgid "No se puede copiar {} por que ya esta en favoritos"
+msgstr "Неможливо скопіювати {}, тому, що він вже знаходиться в обраних"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:312
+msgid "{} Añadido a favoritos"
+msgstr "{} Додано до обраних"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:320
+msgid "{} Eliminado de favoritos"
+msgstr "{} Видалено з обраного"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:327
+msgid "Sin caracteres"
+msgstr "Немає символів"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:329
+msgid "{} caracteres"
+msgstr "{} символів"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:332
+msgid "No hay nada para copiar al portapapeles"
+msgstr "Немає нічого для копіювання в буфер обміну"
+
+#: addon\globalPlugins\zEmoticonos\__init__.py:344
+msgid "No hay nada para copiar al foco"
+msgstr "Немає нічого для копіювання в фокус"
