@@ -61,7 +61,7 @@ Esta tecla funciona en todo el complemento excepto cuando el foco esta en el bot
 * Portugués: Ângelo Miguel Abrantes
 * Turco: umut korkmaz
 * Ruso: Valentin Kupriyanov
-* Ukrainian: Heorhii
+* Ucraniano: Heorhii
 
 # Registro de cambios.
 ## Versión 0.5.
